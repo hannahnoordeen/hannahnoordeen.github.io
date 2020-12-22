@@ -74,6 +74,11 @@ p1{
   margin-left: 25%;
 }
 
+.skillsLeft{
+  text-align: center;
+  color: #434242;
+}
+
 .title1{
   font-size: 40px;
   font-family: 'Open Sans', sans-serif;
@@ -88,10 +93,10 @@ p1{
   font-family: 'Open Sans', sans-serif;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-color: purple;
-  -webkit-text-stroke-width: 1.00px; 
+  -webkit-text-stroke-width: 0.75px; 
 }
 
-#aboutMe, #experiences{
+#aboutMe, .experiences{
   font-size: 54px;
   font-weight: 300;
 }
@@ -102,8 +107,11 @@ p1{
 }
 
 #codingPic{
-  height: 500px;
+  margin-left: 5%;
+  width: 300px;
+  height: 450px;
 }
+
 
 #grayContainer{
   background-color: lightgray;
