@@ -4,7 +4,6 @@ h2{
   font-family: 'Open Sans', sans-serif !important;
 }
 
-
 p{
   font-family: 'Open Sans', sans-serif ;
   color: rgb(126, 125, 125);
@@ -15,14 +14,48 @@ p{
 
 p1{
   font-family: 'Open Sans', sans-serif ;
-  color: rgb(126, 125, 125);
   font-size: 18px;
   font-weight: bold;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 
 .container{
   padding: 10px;
 }
+
+.experienceLeft{
+  margin-left: 35%;
+  text-align: left;
+}
+
+.experienceRight{
+  text-align: left;
+  color: #434242;
+}
+
+.educationRight{
+  text-align: left;
+  color: rgb(126, 125, 125);
+}
+
+.important{
+  font-weight: bold;
+}
+
 .jumbotron {
   background-image:url('images/me.png');
   background-size: cover; 
@@ -31,6 +64,14 @@ p1{
   filter: blur(2.5px);
   -webkit-filter: blur(2.5px);
   border: 2px solid black; 
+}
+
+.line{
+  font-size: 10px;
+}
+
+.LI-profile-badge{
+  margin-left: 25%;
 }
 
 .title1{
@@ -50,38 +91,6 @@ p1{
   -webkit-text-stroke-width: 1.00px; 
 }
 
-.line{
-  font-size: 10px;
-}
-
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}
-
-.LI-profile-badge{
-  margin-left: 25%;
-}
-
-.experienceLeft{
-  margin-left: 40%;
-  text-align: left;
-}
-
-.experienceRight{
-  text-align: left;
-}
-
 #aboutMe, #experiences{
   font-size: 54px;
   font-weight: 300;
@@ -96,15 +105,11 @@ p1{
   height: 500px;
 }
 
-#interests{
-margin-left:10%;
-margin-right: 10%;
-}
-
-#codingSkillsContainer{
+#grayContainer{
   background-color: lightgray;
 }
 
-.important{
-  font-weight: bold;
+#interests{
+margin-left:10%;
+margin-right: 10%;
 }
