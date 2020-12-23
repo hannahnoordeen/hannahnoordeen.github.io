@@ -12,10 +12,7 @@ p{
   font-size: 18px;
   font-weight: 300;
 }
-.container-fluid {
-  margin-right: 0;
-  margin-left: 0;
-  }
+
 
 p1{
   font-family: 'Open Sans', sans-serif ;
@@ -160,8 +157,12 @@ p1{
   background-color: lightgray;
 }
 
-
 #interests{
 margin-left:10%;
 margin-right: 10%;
+}
+
+#linkedinPic{
+  margin-left: 25%;
+  margin-right: 25%;
 }
