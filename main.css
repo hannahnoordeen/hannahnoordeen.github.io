@@ -1,7 +1,8 @@
+
 h2{
   color: purple;
   text-align: center;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p{
@@ -11,6 +12,10 @@ p{
   font-size: 18px;
   font-weight: 300;
 }
+.container-fluid {
+  margin-right: 0;
+  margin-left: 0;
+  }
 
 p1{
   font-family: 'Open Sans', sans-serif ;
@@ -19,8 +24,8 @@ p1{
 }
 
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
   color: white;
   border: 3px solid #f1f1f1;
   position: absolute;
@@ -33,12 +38,9 @@ p1{
   text-align: center;
 }
 
-.container{
-  padding: 10px;
-}
 
 .experienceLeft{
-  margin-left: 35%;
+  margin-left: 20%;
   text-align: left;
 }
 
@@ -50,6 +52,25 @@ p1{
 .educationRight{
   text-align: left;
   color: rgb(126, 125, 125);
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Icons */
+.fa-twitter, .fa-envelope, .fa-linkedin, .fa-sticky-note {
+  color: lightgray;
 }
 
 .important{
@@ -96,7 +117,14 @@ p1{
   -webkit-text-stroke-width: 0.75px; 
 }
 
-#aboutMe, .experiences{
+.username{
+  color: lightgray;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif ;
+  font-weight: 300;
+}
+
+#aboutMe, .experiences, #contact{
   font-size: 54px;
   font-weight: 300;
 }
@@ -112,10 +140,26 @@ p1{
   height: 450px;
 }
 
+#contact{
+  color: white;
+}
+
+#contactLeft{
+  margin-left: 15%;
+}
+
+#contactRight{
+  text-align: left;
+}
+
+#darkGrayContainer{
+  background-color: #434242;
+}
 
 #grayContainer{
   background-color: lightgray;
 }
+
 
 #interests{
 margin-left:10%;
