@@ -20,8 +20,21 @@
             <h1 class = "title2">Interactive Resume</h1>
           </div>
       </div>
-      <br><br>
-      <div class = "container-full-bg">
+      <br id = "aboutMeHeader"><br >
+      <nav class="fixed-nav-bar">
+        <div id="menu" class="menu">            
+          <a class="sitename" href="index.html">Hannah Noordeen Home</a>
+          <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+          <ul class="menu-items">
+            <li><a href="#aboutMeHeader">About Me</a></li>
+            <li><a href="#grayContainer">Experience</a></li>
+            <li><a href="#educationHeader">Education</a></li>
+            <li><a href="#darkGrayContainer">Contact</a></li>
+        </ul>
+        </div>
+      </nav>
+
+      <div  class = "container-full-bg">
         <h2 id = "aboutMe">About Me</h3><br>
           <p id = "aboutMeSub">I'm currently a Junior attending the University of Massachusetts Amherst getting my B.S. in Computer Science</p>
           <p class = "line">____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
@@ -43,6 +56,16 @@
       <div id = "grayContainer"><br><br>
         <h2 class = "experiences">Experience</h2><br>            
         <div class="container">
+          <div class="row">
+              <div class="col-sm">
+                <p1 class = "experienceLeft">Atlassian </p1>
+                <p class = "experienceLeft">May 2021 - August 2021</p>
+              </div>
+              <div class="col-sm">
+                <p1>Incoming Frontend Software Engineering Intern</p1>
+                <p class = "experienceRight">• Summer Internship starting May 17th</p>
+              </div>
+            </div><br>
           <div class="row">
             <div class="col-sm">
               <p1 class = "experienceLeft">Krakbot Inc. </p1>
@@ -99,8 +122,8 @@
           </div>
         </div><br><br>
       </div>
-      <div><br><br>
-        <h2 class = "experiences">Education</h3><br>            
+      <div id = "educationHeader"><br><br>
+        <h2  class = "experiences">Education</h3><br>            
         <div class="container">
           <div class="row">
             <div class="col-sm">
@@ -172,7 +195,7 @@
         </div><br><br>
       </div>
       <div id = "darkGrayContainer"><br><br>
-        <h2 id = "contact">Contact</h2><br>            
+        <h2 id = "contact">Contact</h2><br><br>            
         <div class="container">
             <div class="row">
               <div id = "contactLeft" class="col-sm">
@@ -189,6 +212,7 @@
               </div>
             </div>
           </div>
-      </div>   
+      <br><br> </div>  
     </body>
 </html>
+
