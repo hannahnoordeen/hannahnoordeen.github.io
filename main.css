@@ -115,11 +115,12 @@ p1{
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+  color:white;
 }
 
 /* Icons */
 .fa-twitter, .fa-envelope, .fa-linkedin, .fa-sticky-note {
-  color: lightgray;
+  color: purple;
 }
 
 .important{
@@ -167,13 +168,14 @@ p1{
 }
 
 .username{
-  color: lightgray;
+  color: white;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif ;
   font-weight: 300;
+  opacity:0.6;
 }
 
-#aboutMe, .experiences, #contact{
+#aboutMeText, .experiences, #contactText{
   font-size: 54px;
   font-weight: 300;
 }
@@ -189,8 +191,8 @@ p1{
   height: 425px;
 }
 
-#contact{
-  color: white;
+#contactText{
+  color: purple;
 }
 
 #contactLeft{
@@ -201,11 +203,11 @@ p1{
   text-align: left;
 }
 
-#darkGrayContainer{
-  background-color: #434242;
+#contact{
+  background-color: gray;
 }
 
-#grayContainer{
+#experience, #skills{
   background-color: lightgray;
 }
 
@@ -219,6 +221,29 @@ margin-right: 10%;
   margin-right: 25%;
 }
 
+#repo{
+  color:purple;
+  border-color:purple;
+  background-color: lightgray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+#repo:hover{
+  color:white;
+   background-color: purple;
+   border-color:purple;
+}
+
+.btn-holder{
+  text-align:center;
+}
+
+#whitetext{
+  color: white;
+  font-size: 16px;
+  
+}
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
